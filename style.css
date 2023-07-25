@@ -1,0 +1,306 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap");
+body {
+  background-color: #ecf2f8;
+  height: 100vh;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 13px;
+}
+
+.Grid {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 30px;
+  padding: 30px;
+}
+
+.Purple {
+  background-image: url("./images/bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-color: #7541c8;
+  border-radius: 10px;
+  color: #fff;
+  padding: 30px;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1/3;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+}
+
+.Purple .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Purple .header .Position {
+  font-size: 13px;
+  opacity: 0.5;
+  margin: 0;
+}
+
+.Purple .header .name {
+  font-size: 16px;
+  font-weight: 200;
+  margin: 0;
+}
+
+.Purple .header img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #fff;
+  margin-right: 20px;
+}
+
+.Purple .Description p {
+  font-size: 13px;
+  opacity: 0.7;
+  margin: 0;
+}
+
+.Gray {
+  background-color: #48556a;
+  border-radius: 10px;
+  color: #fff;
+  padding: 30px;
+}
+
+.Gray .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Gray .header .Position {
+  font-size: 13px;
+  opacity: 0.5;
+  margin: 0;
+}
+
+.Gray .header .name {
+  font-size: 16px;
+  font-weight: 200;
+  margin: 0;
+}
+
+.Gray .header img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #fff;
+  margin-right: 20px;
+}
+
+.Gray .Description p {
+  font-size: 13px;
+  opacity: 0.7;
+  margin: 0;
+}
+
+.White {
+  background-color: white;
+  border-radius: 10px;
+  color: #000;
+  padding: 30px;
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 1;
+  grid-column: 4/5;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  grid-row: 1/3;
+}
+
+.White .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.White .header .Position {
+  font-size: 13px;
+  opacity: 0.5;
+  margin: 0;
+}
+
+.White .header .name {
+  font-size: 16px;
+  font-weight: 200;
+  margin: 0;
+}
+
+.White .header img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #fff;
+  margin-right: 20px;
+}
+
+.White .Description p {
+  font-size: 13px;
+  opacity: 0.7;
+  margin: 0;
+}
+
+.SecoundWhite {
+  background-color: white;
+  border-radius: 10px;
+  color: #000;
+  padding: 30px;
+}
+
+.SecoundWhite .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.SecoundWhite .header .Position {
+  font-size: 13px;
+  opacity: 0.5;
+  margin: 0;
+}
+
+.SecoundWhite .header .name {
+  font-size: 16px;
+  font-weight: 200;
+  margin: 0;
+}
+
+.SecoundWhite .header img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #fff;
+  margin-right: 20px;
+}
+
+.SecoundWhite .Description p {
+  font-size: 13px;
+  opacity: 0.7;
+  margin: 0;
+}
+
+.Dark {
+  background-color: #19212e;
+  border-radius: 10px;
+  color: #fff;
+  padding: 30px;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-column: 2/4;
+}
+
+.Dark .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Dark .header .Position {
+  font-size: 13px;
+  opacity: 0.5;
+  margin: 0;
+}
+
+.Dark .header .name {
+  font-size: 16px;
+  font-weight: 200;
+  margin: 0;
+}
+
+.Dark .header img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #fff;
+  margin-right: 20px;
+}
+
+.Dark .Description p {
+  font-size: 13px;
+  opacity: 0.7;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .Purple {
+    -ms-grid-column: 1;
+    grid-column: 1;
+    -ms-grid-row: 1;
+    grid-row: 1;
+  }
+  .Gray {
+    -ms-grid-column: 1;
+    grid-column: 1;
+    -ms-grid-row: 2;
+    grid-row: 2;
+  }
+  .White {
+    -ms-grid-column: 1;
+    grid-column: 1;
+    -ms-grid-row: 3;
+    grid-row: 3;
+  }
+  .SecoundWhite {
+    -ms-grid-column: 1;
+    grid-column: 1;
+    -ms-grid-row: 4;
+    grid-row: 4;
+  }
+  .Dark {
+    -ms-grid-column: 1;
+    grid-column: 1;
+    -ms-grid-row: 5;
+    grid-row: 5;
+  }
+}
+/*# sourceMappingURL=style.css.map */
